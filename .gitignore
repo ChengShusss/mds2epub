@@ -23,3 +23,10 @@ go.work
 # build binary files
 build
 build/*
+
+# testdata
+testdata
+testdata/*
+
+# vscode file
+.vscode
