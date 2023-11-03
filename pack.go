@@ -15,9 +15,15 @@ const (
 	mimetypeFilename = "mimetype"
 )
 
+func usagePack() {
+	fmt.Printf("Usage of mds2epub pack:\n  mds2epub pack [OPTIONS] PATH\nOptions:\n")
+	pflag.PrintDefaults()
+}
+
 func Pack() {
 	var output string
 	pflag.StringVarP(&output, "output", "o", "./default.epub", "specify the filename to output")
+	pflag.Usage = usagePack
 	pflag.Parse()
 
 	if len(pflag.Args()) != 1 {
