@@ -1,0 +1,17 @@
+{
+    "version": "2.0",
+    "clipId": "1690354104",
+    "format": "md",
+    "title": "article-root",
+    "link": "https://example.com/article-root",
+    "category": "temp",
+    "tags": [
+        "tag-root"
+    ],
+    "created_at": "2023-07-26 14:48:24",
+    "mainPath": "article-root-title",
+    "paths": [
+        "index.json",
+        "article-root.md"
+    ]
+}
